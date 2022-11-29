@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+h1 {
+    font-family: 'passion one', Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    padding: 50px 0px 0px 0px;
+    font-variant: small-caps;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+header > p {
+    margin: auto;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre.img {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 0px 20px 0px 0px;
+    display: inline-block;
+    margin: 50px 0px 0px 0px;
+}
+
+p.poema {
+    font-family: Sriracha, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#img1 {
+    height: 100vh;
+    background-color: bisque;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center right;
+    background-attachment: fixed;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.321);
+}
+
+div#img2 {
+    height: 100vh;
+    background-color: bisque;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.321);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    margin: 0%;
+    padding: 20px 0px 20px 0px;
+}
+
+footer > p {
+    color: white;
+    margin: 0px;
+}
